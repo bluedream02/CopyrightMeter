@@ -1,0 +1,98 @@
+{
+  "style": {
+    "van gogh": {
+      "target": "van gogh",
+      "anchor": "painting",
+      "hard_negative": [
+        "monet",
+        "greg rutkowski",
+        "salvador dali",
+        "johannes vermeer",
+        "jeremy mann"
+      ]
+    },
+    "monet": {
+      "target": "monet",
+      "anchor": "painting",
+      "hard_negative": [
+        "van gogh",
+        "greg rutkowski",
+        "salvador dali",
+        "johannes vermeer",
+        "jeremy mann"
+      ]
+    },
+    "greg rutkowski": {
+      "target": "greg rutkowski",
+      "anchor": "painting",
+      "hard_negative": [
+        "van gogh",
+        "monet",
+        "salvador dali",
+        "johannes vermeer",
+        "jeremy mann"
+      ]
+    },
+    "salvador dali": {
+      "target": "salvador dali",
+      "anchor": "painting",
+      "hard_negative": [
+        "van gogh",
+        "monet",
+        "greg rutkowski",
+        "johannes vermeer",
+        "jeremy mann"
+      ]
+    }
+  },
+  "object": {
+    "grumpy cat": {
+      "target": "grumpy cat",
+      "anchor": "cat",
+      "hard_negative": [
+        "british shorthair cat",
+        "himalayan cat",
+        "scottish fold cat",
+        "persian cat"
+      ]
+    },
+    "r2d2": {
+      "target": "r2d2",
+      "anchor": "robot",
+      "hard_negative": [
+        "bb8",
+        "c-3po",
+        "wall-e",
+        "baymax"
+      ]
+    },
+    "nemo": {
+      "target": "nemo",
+      "anchor": "fish",
+      "hard_negative": [
+        "clown fish",
+        "gobies",
+        "damselfish",
+        "angelfish"
+      ]
+    },
+    "snoopy": {
+      "target": "snoopy",
+      "anchor": "dog",
+      "hard_negative": [
+        "beagles",
+        "basset hound",
+        "harrier dog",
+        "english foxhound"
+      ]
+    },
+    "kids": {
+      "target": "kids with guns",
+      "anchor": "kids",
+      "hard_negative": [
+        "adult with guns",
+        "kids with toys"
+      ]
+    }
+  }
+}

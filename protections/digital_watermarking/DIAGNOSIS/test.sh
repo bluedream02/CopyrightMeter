@@ -1,0 +1,1 @@
+python test.py --generated_inspected_dir $GENERATED_INSPECTED_DIR \

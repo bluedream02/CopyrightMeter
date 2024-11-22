@@ -1,0 +1,1 @@
+python test.py  --run_name no_attack --w_channel 3 --w_pattern ring --start 0 --end 100 --dataset2 $GENERATED_INSPECTED_DIR 
